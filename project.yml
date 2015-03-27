@@ -1,0 +1,52 @@
+_prefs: 
+  mapid: ''
+  saveCenter: false
+_properties: {}
+attribution: ''
+bounds: 
+  - -180
+  - -85.0511
+  - 180
+  - 85.0511
+center: 
+  - -95.4066
+  - 29.7417
+  - 10
+description: A Park/Greenspace themed MapBox Studio map project using Mapbox Streets vector tiles
+format: "png8:m=h"
+interactivity_layer: ''
+layers: 
+  - landcover
+  - landuse
+  - hillshade
+  - landuse_overlay
+  - aeroway
+  - contour.line
+  - waterway
+  - water
+  - barrier_line
+  - admin
+  - country_label_line
+  - tunnel
+  - road
+  - bridge
+  - building
+  - marine_label
+  - water_label
+  - waterway_label
+  - country_label
+  - state_label
+  - place_label
+  - road_label
+  - poi_label
+maxzoom: 19
+minzoom: 8
+name: Greenspace
+source: "mapbox:///mapbox.mapbox-terrain-v1,mapbox.mapbox-streets-v5"
+styles: 
+  - vars.mss
+  - bg.mss
+  - roads.mss
+  - labels.mss
+  - pois.mss
+template: ''
